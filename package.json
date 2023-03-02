@@ -1,0 +1,19 @@
+{
+  "name": "studygulp",
+  "version": "1.0.0",
+  "description": "gulp study...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ij2356/gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ij2356/gulp/issues"
+  },
+  "homepage": "https://github.com/ij2356/gulp"
+}
