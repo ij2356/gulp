@@ -4,7 +4,9 @@
   "description": "gulp study...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/ij2356/gulp/issues"
   },
-  "homepage": "https://github.com/ij2356/gulp"
+  "homepage": "https://github.com/ij2356/gulp",
+  "dependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-pug": "^5.0.0"
+  }
 }
